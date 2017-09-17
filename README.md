@@ -1,6 +1,8 @@
 # Badge Extension
 
-[![Build Status](https://travis-ci.org/dmzx/Badge-Extension.svg?branch=master)](https://travis-ci.org/dmzx/Badge-Extension)
+## Version 
+1.1.0
+[![Build Status](https://travis-ci.org/Sajaki/Badge-Extension.svg?branch=develop32)](https://travis-ci.org/Sajaki/Badge-Extension)
 
 ## Install
 

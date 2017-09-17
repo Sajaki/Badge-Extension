@@ -3,8 +3,8 @@
 	"type": "phpbb-extension",
 	"description": "This extension will add a badge bbCode selection box in posting template.",
 	"homepage": "http://www.dmzx-web.net",
-	"version": "1.0.2",
-	"time": "2015-12-13",
+	"version": "1.1.0",
+	"time": "2017-09-17",
 	"keywords": ["phpbb", "extension", "Badge Extension"],
 	"license": "GPL-2.0",
 	"authors": [
@@ -13,10 +13,17 @@
 			"homepage": "http://www.dmzx-web.net",
 			"email": "info@dmzx-web.net",
 			"role": "Extension Developer"
+		},
+		{
+			"name": "Sajaki",
+			"email": "sajaki@avathar.be",
+			"homepage": "http://www.avathar.be",
+			"role": "developer"
 		}
 	],
 	"require": {
-		"php": ">=5.3.3"
+		"php": ">=5.5.0",
+		"composer/installers": "~1.0"
 	},
 	"require-dev": {
 		"phpbb/epv": "dev-master"
@@ -24,12 +31,12 @@
 	"extra": {
 		"display-name": "Badge Extension",
 		"soft-require": {
-			"phpbb/phpbb": "3.1.*"
+			"phpbb/phpbb": ">=3.2"
 		},
 		"version-check": {
-			"host": "www.dmzx-web.net",
-			"directory": "/versions",
-			"filename": "badge_version.json"
+			"host": "avathar.be",
+			"directory": "/versioncheck",
+			"filename": "badge.json"
 		}
 	}
 }
